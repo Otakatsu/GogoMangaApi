@@ -18,15 +18,12 @@ An Unofficial Python API Library to Download Manga  for FREE...
 ### Example 
 
 Search Example
-```print(get_search(query="naruto"))
-```
+```print(get_search(query="naruto"))```
 
 Detail Example
-```print(get_detail(mangaid="boruto", page=1))
-```
+```print(get_detail(mangaid="boruto", page=1))```
 
 Details Example
-```print(get_chapter(mangaid="boruto", chapternum=1))
-```
+```print(get_chapter(mangaid="boruto", chapternum=1))```
 
 ### ©MetaVoid
