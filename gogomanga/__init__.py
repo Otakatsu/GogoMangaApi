@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-import re
+import requests
 
 
 def get_search(query, page=1):  
