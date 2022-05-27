@@ -1,4 +1,4 @@
-# KissManngaApi
+# GogoMangaApi
 An Unofficial Python API Library to Download Manga  for FREE...
 
 ## Important
