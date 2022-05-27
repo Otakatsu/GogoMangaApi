@@ -9,11 +9,11 @@ An Unofficial Python API Library to Download Manga  for FREE...
 
 
 ## Installation
-```$ pip install kissmanga```
+```$ pip install gogomanga```
 
 ## Usage
 ### 1. Importing the Library
-```from kissmanga import get_search, get_detail, get_chapter```
+```from gogomanga import get_search, get_detail, get_chapter```
 
 ### Example 
 
