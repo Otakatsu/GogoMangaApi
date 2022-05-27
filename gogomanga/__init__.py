@@ -57,7 +57,7 @@ def get_chapter(mangaid, chapternum):
             soup = BeautifulSoup(response_html, 'html.parser')           
             res_search_list = []    
             imageurl = []
-            url = chapter_parser.find_all('img', attrs={'class': 'size-full'})
+            url = soup.find_all('img', attrs={'class': 'size-full'})
             for x in url:
                 imageurl.append(x['src'])                
                 res_search_list.append({"img":f"{imageurl}"})
